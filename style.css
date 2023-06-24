@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e1e1e;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #1a1b1d;
+  margin-top: 50px;
+  width: 1000px;
+  height: 685px;
+}
+.main-div {
+  padding: 2rem;
+}
+
+.buttons {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#coin-table img {
+  width: 24px;
+}
+
+#search-input {
+  background-color: #1a1b1d;
+  border: 1px solid white;
+  width: 400px;
+  height: 32px;
+  padding: 0 0.8rem;
+}
+#search-input::placeholder {
+  color: white;
+}
+button {
+  height: 32px;
+  border: 1px solid white;
+  background-color: #1a1b1d;
+  color: white;
+  margin-left: 1rem;
+  padding: 0 0.8rem;
+}
+
+.buttons {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+}
